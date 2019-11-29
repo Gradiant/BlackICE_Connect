@@ -1,0 +1,57 @@
+######################################################
+#            Configuration file						 #
+######################################################
+
+############## Configuration example ##################
+## APIVERSION =  "2016-10-01"
+## AUTH_APIVERSION = "1.0"
+## AUTH_URL = "https://login.windows.net/"
+## RESOURCE = "https://vault.azure.net"
+## CLIENTID = "1111111-1111-1111-1111-11111111111"
+## TENANTID = "1111111-1111-1111-1111-11111111111"
+## HOST = "https://{host name}.vault.azure.net/"
+## PASSWORD = "aaaAAaAaaaAAAaaa//aaaAAaAaAAAa="
+
+####### Azure Key Vaul server information #######
+#Azure Key Vault API version. Uncomment and edit if non-default data
+#APIVERSION =  "2016-10-01"
+#Authentication API version. Uncomment and edit if non-default data
+#AUTH_APIVERSION = "1.0"
+#Authentication URL. Uncomment and edit if non-default data
+#AUTH_URL = "https://login.windows.net"
+#Resource URL. Uncomment and edit if non-default data
+#RESOURCE = "https://vault.azure.net"
+
+#To generate keys processed in hsm uncoment and select HSM_PROCESSED = true else false. Default false
+#HSM_PROCESSED = false
+
+# Required customer data 
+CLIENTID = "MY_CLIENTID"
+TENANTID = "MY_TENANTID"
+HOST = "MY_HOST"
+PASSWORD = "MY_PASSWORD"
+
+############## Logs file ##############################
+
+# Path to the logfile (name of logfile is attached by the library)
+# For unix:
+# Logpath = "/tmp"
+# For windows:
+# Logpath = "c:\temp"
+LogPath = "LOG_PATH"
+
+# Loglevel (0 = NONE; 1 = ERROR; 2 = WARNING; 3 = INFO; 4 = TRACE)
+LogLevel = "LOG_LEVEL"
+
+# Maximum size of the logfile in (K/M/G)Bytes. Format:
+#"x...xK", being K one of K, M or G and being x...x any sequence of numbers.
+LogSize = "10M"
+
+# Sets whether logging is historical or rotative. That is, if Logsize is reached the library can
+# (1) save current as history and create a new logging file or (0) overwrite the same file.
+# Defaults to 1.
+SaveLogHistory = "SAVE_LOG"
+
+# Session timeout in minutes. Use 0 to keep the session open forever after introducing the PIN.
+# Use -1 to apply Azure default session timeout
+SessionTimeout = "TIME_OUT"

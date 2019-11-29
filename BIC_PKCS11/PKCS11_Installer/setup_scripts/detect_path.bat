@@ -1,0 +1,1 @@
+echo !define SOURCEDIR "%cd%" > script_path.nsh

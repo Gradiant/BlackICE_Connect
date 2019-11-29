@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base64url">
+      <UniqueIdentifier>{70757986-a0b9-4011-ad9c-875251423a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cJSON">
+      <UniqueIdentifier>{39f47902-5d08-4b69-9cd4-c797ccf2d329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{ba44923f-3b88-4f3e-a7bf-89e101d0199b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{943de2f6-55f5-4272-aaea-10790a3595ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\librb64u.h">
+      <Filter>base64url</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\cJSON.h">
+      <Filter>cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\common.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\librb64u.c">
+      <Filter>base64url</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\cJSON.c">
+      <Filter>cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Debug.c">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\common.c">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

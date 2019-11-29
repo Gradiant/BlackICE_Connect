@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\parser_helper.c">
+      <Filter>ClientRest</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\clientRest.c">
+      <Filter>ClientRest</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\clientRestTypes.c">
+      <Filter>ClientRest</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\clientRest_helper.c">
+      <Filter>ClientRest</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SecureConfiguration.c">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CNGStorage.c">
+      <Filter>Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\clientRest.h">
+      <Filter>ClientRest</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\clientRestTypes.h">
+      <Filter>ClientRest</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\interface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ClientRest">
+      <UniqueIdentifier>{2a3ae743-d552-4772-bd56-1d61a1b61234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{eaf43c84-3d9f-42df-9048-fa9173c630f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

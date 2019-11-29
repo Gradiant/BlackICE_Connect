@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{70f5dbae-1bb1-4386-8e4e-48b9c4acdc9f}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\clientRest.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\clientRestTypes.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\clientRest_helper.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CNGStorage.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\parser_helper.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SecureConfiguration.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\clientRest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\clientRestTypes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\interface.h" />
+  </ItemGroup>
+</Project>

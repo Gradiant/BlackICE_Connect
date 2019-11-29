@@ -1,0 +1,3 @@
+LIBRARY KSP
+EXPORTS
+    GetKeyStorageInterface
