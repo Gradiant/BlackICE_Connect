@@ -77,6 +77,7 @@ BlackICE Connect for Linux is built using CMake scripts.
 - [cJSON](https://github.com/DaveGamble/cJSON) (already shipped in this repository)
 - Mono (for building the tests)
 - NUnit framework (for running the tests)
+
 Please, refer to [Building_Linux_dependencies](Building_Linux_dependencies.md).
 
 ### Instructions to build BIC for Linux:
@@ -97,9 +98,9 @@ Please, see the [Install_BIC_PKCS11_Linux.md](Install_BIC_PKCS11_Linux.md) file 
 
 ## Testing
 Refer to the following documents for the testing procedure of the providers.
-- [Test_BIC_PKCS11_Windows.md](Test_BIC_PKCS11_Windows)
-- [Test_BIC_KSP_Windows.md](Test_BIC_KSP_Windows)
-- [Test_BIC_PKCS11_Linux.mb](Test_BIC_PKCS11_Linux)
+- [Test_BIC_PKCS11_Windows.md](Test_BIC_PKCS11_Windows.md)
+- [Test_BIC_KSP_Windows.md](Test_BIC_KSP_Windows.md)
+- [Test_BIC_PKCS11_Linux.md](Test_BIC_PKCS11_Linux.md)
 
 Note: to test the providers it is necessary to provide the credentials to an Azure Key Vault account.
 
