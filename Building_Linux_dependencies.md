@@ -31,7 +31,7 @@ $ make -j4 install V=1
 #### x86-release
 Configure:
 ```bash
-$ CFLAGS="-m32 -fPIC" ./configure --static -prefix=<project_dir>/libs/linux/zlib/release/x64
+$ CFLAGS="-m32 -fPIC" ./configure --static -prefix=<project_dir>/libs/linux/zlib/release/x86
 ```
 Build:
 ```bash
